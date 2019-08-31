@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: #212529;
+  color: grey;
+}
+
+.main-wrapper {
+  padding: 40px;
+}
+
+.alert {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.code-container {
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: none !important;
+  text-align: center;
+}
+
+.form-control {
+  background: rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.code-container {
+  letter-spacing: 2px;
+}
+
+::placeholder {
+  letter-spacing: 2px;
+  color: grey !important;
+}
+
+.alert-success {
+  background: #1dd1a1 !important;
+}
